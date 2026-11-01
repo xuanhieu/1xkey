@@ -12,20 +12,20 @@
 - **Không mất dấu.** Có luật riêng cho ô địa chỉ trình duyệt, Google Docs, Word Online, ô chat Claude, ChatGPT, Gemini, Slack, Discord, Zalo, Teams, Messenger và Terminal.
 - **Tối giản.** Không có cửa sổ cài đặt. Menu trên thanh menu chỉ gồm: bật/tắt tiếng Việt, Telex hoặc VNI, Thoát. Bảng mã luôn là Unicode.
 - **Riêng tư.** Không có dịch thuật, không đồng bộ đám mây, không telemetry, không tự cập nhật. App không kết nối mạng. Log chẩn đoán không bao giờ ghi chữ bạn gõ.
-- **Nhẹ.** Khoảng 7,6 MB, chạy native trên Apple Silicon.
+- **Nhẹ.** Khoảng 5 MB, chạy native trên Apple Silicon. Không chiếm phím tắt, không cài thêm Input Method.
 - **Tôn trọng ô mật khẩu.** Tự tắt khi macOS bật Secure Input.
 
 ## Cài đặt
 
 Yêu cầu: Mac chip Apple Silicon (M1 trở lên).
 
-1. Tải `1xKey-1.0.0.zip` ở trang [1x.xuanhieu.org/key](https://1x.xuanhieu.org/key) hoặc mục [Releases](../../releases). Kiểm tra sha256 nếu muốn.
+1. Tải `1xKey.zip` ở trang [1x.xuanhieu.org/key](https://1x.xuanhieu.org/key) hoặc mục [Releases](../../releases). Kiểm tra sha256 nếu muốn.
 2. Giải nén, kéo `1xKey.app` vào thư mục Applications.
 3. Mở 1xKey. Lần đầu macOS sẽ chặn vì app chưa được Apple công chứng. Vào **System Settings → Privacy & Security**, bấm **Open Anyway**.
 4. Cấp quyền **Accessibility** và **Input Monitoring** cho 1xKey (cũng trong Privacy & Security).
 5. Chọn Input Source là **ABC** và tắt bộ gõ tiếng Việt có sẵn của Apple, để không bị thêm dấu hai lần.
 
-Bật/tắt tiếng Việt: dùng menu 1xKey trên thanh menu, hoặc phím ⌘⇧V.
+Bật/tắt tiếng Việt và chọn Telex/VNI ngay trên menu 1xKey ở thanh menu. 1xKey không chiếm phím tắt nào của bạn.
 
 ## Mã nguồn và giấy phép
 
